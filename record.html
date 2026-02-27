@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diary | WANG Xiangtian</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>Life Record</h1>
+        <p>Daily(?) Post.</p>
+      </div>
+
+      <div style="display:flex; gap:10px; align-items:center;">
+        <a class="btn" href="homepage.html">← Back</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>New Post</h2>
+
+      <input id="title" type="text" placeholder="Title (optional)" />
+      <textarea id="content" placeholder="Write something..." rows="8"></textarea>
+
+      <div style="display:flex; gap:10px; margin-top:12px; flex-wrap:wrap;">
+        <button class="btn primary" id="saveBtn" type="button">Save</button>
+        <button class="btn" id="clearBtn" type="button">Clear</button>
+      </div>
+
+      <p id="hint" class="muted" style="margin-top:10px;"></p>
+    </section>
+
+    <section class="card">
+      <h2>Posts</h2>
+      <div id="postList"></div>
+    </section>
+  </main>
+
+  <script src="record.js"></script>
+</body>
+</html>

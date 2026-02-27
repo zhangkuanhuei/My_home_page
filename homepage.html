@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1 data-i18n="name">WANG Xiangtian</h1>
+        <p data-i18n="subtitle">This is my homepage.</p>
+      </div>
+
+      <button id="langBtn" type="button">日本語</button>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#notes" data-i18n="nav_notes">Notes</a></li>
+      <li><a href="#about" data-i18n="nav_about">About me</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact me</a></li>
+      <li><a href="record.html" data-i18n="nav_record">Life record</a></li>
+    </ul>
+  </nav>
+
+  <section id="notes">
+    <h2 data-i18n="notes_title">Notes</h2>
+    <p data-i18n="notes_text">Today I started my own homepage. (2026.02.27)</p>
+  </section>
+
+  <section id="about">
+    <h2 data-i18n="about_title">About me</h2>
+    <p data-i18n="about_text">
+      I'm from Taizhou, Jiangsu, China. I studied Information Science in Ritsumeikan University (2022.04–2026.03). I'm now living in Kansai.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2 data-i18n="contact_title">Contact me</h2>
+    <p><span data-i18n="email_label">Email:</span> <span data-i18n="email_value">adawongcool@email.com</span></p>
+  </section>
+
+  <!-- ✅ 引入 JS -->
+  <script src="script.js"></script>
+</body>
+</html>

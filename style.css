@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+#langBtn{
+  border: 1px solid rgba(255,255,255,.6);
+  background: transparent;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+#langBtn:hover{
+  background: rgba(255,255,255,.15);
+}
+
+header {
+    background-color: #4a6cf7;
+    color: white;
+    text-align: left;
+    padding: 40px 20px;
+}
+
+nav {
+    background-color: #e5e5e5;
+    padding: 15px 0;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+nav a:hover {
+    color: #4a6cf7;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+h2 {
+    border-bottom: 2px solid #4a6cf7;
+    padding-bottom: 5px;
+}
+
+.container{
+  width: min(900px, 92vw);
+  margin: 40px auto;
+}
+
+.card{
+  background: white;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  margin-bottom: 18px;
+}
+
+.muted{ color:#666; }
+
+input, textarea{
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.btn{
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn.primary{
+  background: #4a6cf7;
+  color: white;
+  border-color: #4a6cf7;
+}
+
+.post{
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 14px;
+  margin-top: 12px;
+}
+
+.post-top{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:flex-start;
+}
+
+.post h3{ margin: 0 0 6px 0; }
