@@ -1,4 +1,4 @@
-const KEY = "my_diary_posts_v1";
+const KEY = "my_daily_posts_v1";
 
 function loadPosts() {
   try {
